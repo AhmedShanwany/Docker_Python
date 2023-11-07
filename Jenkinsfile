@@ -20,7 +20,7 @@
         stage ('Run Jmeter Docker') {
             steps {
 				script{
-                bat 'docker run -t -v  -v D:\\QIQ\\courses\\Run_From_CMD:/data  python_image:1.1'
+                bat 'docker run -t -v D:\\QIQ\\courses\\Run_From_CMD:/data  python_image:1.1'
                 
 				}
 			}
